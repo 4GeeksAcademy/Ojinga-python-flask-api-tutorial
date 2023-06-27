@@ -2,7 +2,11 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 700,
     "editor.minimap.enabled": false,
-    "workbench.editorAssociations": {   
+    "workbench.editorAssociations": {
         "*.md": "vscode.markdown.preview.editor"
-    }
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none"
 }
